@@ -18,7 +18,7 @@ The XDATCAR file can be in any form. This program takes in NPT, NPH, and NVT sim
 The output file "atoms" contains legend labels for visualization purposes. It is printed in the order in which atoms are read in from the XDATCAR file, and considers all combinations of atom pairs. The file "rad1" contains 
 information for plotting the radial distribution function. The first column is the r positions followed by the g(r) values for each atom-pair (following the same order as the "atoms" output file).
 
-**Comile**
+**Compile**
 
 To compile the code, enter the command "make". 
 Compiler flags in makefile use gfortran. MacOSX library required and uses the flag: GLIB = -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
